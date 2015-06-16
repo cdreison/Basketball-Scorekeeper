@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Basketball Scorekeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_score_keeper">Basketball Scorekeeper</string>
+    <string name="title_activity_team_selector">Team Selector</string>
+    <string name="team_a_name">Team A</string>
+    <string name="team_b_name">Team B</string>
+    <string name="three_points">+3 Points</string>
+    <string name="two_points">+2 Points</string>
+    <string name="one_point">Free throw</string>
+    <string name="team_b_hint">Enter team B\'s name</string>
+    <string name="team_a_hint">Enter team A\'s name</string>
+    <string name="start_button_text">Start scorekeeper</string>
+    <string name="zero">0</string>
+    <string name="reset">Reset</string>
+    <string name="reset_scores">Reset scores</string>
+</resources>

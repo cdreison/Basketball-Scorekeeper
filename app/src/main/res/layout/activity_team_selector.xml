@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamSelector">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/courtz"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_a_input"
+            android:width="296dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:hint="@string/team_a_hint"
+            android:inputType="textCapWords"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/team_b_input"
+            android:width="296dp"
+            android:layout_marginTop="32dp"
+            android:layout_below="@id/team_a_input"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:hint="@string/team_b_hint"
+            android:inputType="textCapWords"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_button_text"
+            android:layout_below="@id/team_b_input"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:id="@+id/button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/basketball"
+            android:src="@drawable/basketball"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
